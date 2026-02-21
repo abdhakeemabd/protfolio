@@ -46,16 +46,16 @@ const About = () => {
         {/* grid 4 */}
         <div className='grid grid-special-color grid-4'>
           <div className="flex flex-col items-center justify-center gap-4 size-full">
-            <p className='text-center headtext'>Do you want to start a prohect to together? </p>
-            <p className='subtext'>I am based in Mars and open to remote work world wide </p>
+            <p className='text-center headtext'>Do you want to start a project together? </p>
+            <p className='subtext'>I am based in Mars and open to remote work worldwide </p>
             <CopyEmailButton />
           </div>
         </div>
         {/* grid 5 */}
         <div className='grid grid-default-color grid-5'>
           <div className='z-10 w-[50%]'>
-            <p className='headText'>Teck Stack </p>
-            <p className='subText'>I specailze in a variety of languages and frameworks, and tools that allow me to build robust and scalable application  .</p>
+            <p className='headtext'>Tech Stack </p>
+            <p className='subtext'>I specialize in a variety of languages, frameworks, and tools that allow me to build robust and scalable applications.</p>
           </div>
           <div className='absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125'>
             <Framework />
