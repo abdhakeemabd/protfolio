@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './section/navbar'
 import Hero from './section/hero'
+import About from './section/about'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -12,7 +13,7 @@ function App() {
       <div className="container mx-auto  max-w-7xl">
         <Navbar />
         <Hero />
-
+        <About />
       </div>
     </>
   )

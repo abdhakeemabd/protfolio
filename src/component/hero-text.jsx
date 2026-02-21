@@ -9,7 +9,7 @@ const HeroText = () => {
   }
 
   return (
-    <div className='z-10 mt-20 text-center md:mt-40  md:text-left rounded-3xl bg-clip-text'>
+    <div className='z-20 relative pointer-events-none mt-20 text-center md:mt-40  md:text-left rounded-3xl bg-clip-text'>
       {/*  desktop view */}
       <div className='flex-col hidden md:flex c-space '>
         <motion.h1 variants={variants} initial="hidden" animate="visible" transition={{ delay: 1 }} className='text-4xl font-medium'>Hi am Hakeem</motion.h1>
