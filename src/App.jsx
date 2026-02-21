@@ -8,6 +8,8 @@ import About from './section/about'
 import Projects from './section/project'
 import Experiences from './section/experiences'
 import Testimonial from './section/testimonial'
+import Contact from './section/contact'
+import Footer from './section/footer'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -20,6 +22,8 @@ function App() {
         <Projects />
         <Experiences />
         <Testimonial />
+        <Contact />
+        <Footer />
       </div>
     </>
   )

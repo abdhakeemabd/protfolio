@@ -24,7 +24,6 @@ const Hero = () => {
             </Float>
             <Rig />
           </Suspense>
-          <Rig />
         </Canvas>
       </figure>
     </section>
